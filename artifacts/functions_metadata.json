@@ -15,20 +15,46 @@
 						"type": "uint256"
 					}
 				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "sub",
+				"name": "global",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "senderId",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -58,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Functions.sol": "functions"
+			"variable_types.sol": "functions"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Functions.sol": {
-			"keccak256": "0x0042282ca5f06354203f51674f8c0388e25cfaf06447110f47d3068d57167574",
+		"variable_types.sol": {
+			"keccak256": "0x7b5d7acc788ac61e115cf8cebf99d40d4c71466db153ab7433fda1db4666c279",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://20e5ba6b6152e865e79067c5e186f0ee28c2e00b62ccd638c98fe2f1883a30c7",
-				"dweb:/ipfs/QmWhWQ8rgToLUcdRuBnraBQ1G3zcFGvoiM41KsroJK8SZd"
+				"bzz-raw://5610f9afe33182ebf25dd1c6d26ea96a0dbba496f6c3f635609dc2a4f4526a20",
+				"dweb:/ipfs/QmPEupD3EZRwpzYwmXpFSn3Z2xW5i9L5BVYsWDhVwCxaGY"
 			]
 		}
 	},
