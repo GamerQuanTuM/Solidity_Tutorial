@@ -6,42 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "myVariable",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "print",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "MyContract"
+			"storage_memory.sol": "MyContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -72,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"storage_memory.sol": {
+			"keccak256": "0x78c362b0a01fd71708f71ea7f16cc1724a1fdb3261aca0639910dcbe5f191c0f",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://70e3e99366835346d610c17ad04a21944414492df80b4ed691dd06b518030326",
+				"dweb:/ipfs/QmSzryhxKy2TcvyWRYrPbGDrYD63hq6ivLEGFoWSVVVRYV"
 			]
 		}
 	},

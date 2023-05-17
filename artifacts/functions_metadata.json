@@ -1,10 +1,76 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.7.6+commit.7338295f"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "global",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "senderId",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,9 +84,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "functions"
+			"variable_types.sol": "functions"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0x00e79412d29cd4b22f1dca85de401202ad9cfea68ed9ec3d86e71cd0c0a25b91",
+		"variable_types.sol": {
+			"keccak256": "0x7b5d7acc788ac61e115cf8cebf99d40d4c71466db153ab7433fda1db4666c279",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://5bbf32d59f2d5207f4c94ed363af081daa278405740bda7e8560c4a6c094fb27",
-				"dweb:/ipfs/Qmc8uALDuRx4jVHaAG7MukorrmHM4Goy9vfQB89jtV6fja"
+				"bzz-raw://5610f9afe33182ebf25dd1c6d26ea96a0dbba496f6c3f635609dc2a4f4526a20",
+				"dweb:/ipfs/QmPEupD3EZRwpzYwmXpFSn3Z2xW5i9L5BVYsWDhVwCxaGY"
 			]
 		}
 	},
