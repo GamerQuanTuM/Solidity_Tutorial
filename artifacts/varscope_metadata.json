@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"variable_scopes.sol": "varscope"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"variable_scopes.sol": {
+			"keccak256": "0xea28ef3945057ea0989ba7e7dd0b974bab630e3e26d417442515df294de8a4d6",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://359236b2a8f283c05563a9164c22fc10bc4d0c11f4c9dabcfbacb0d100c7075c",
+				"dweb:/ipfs/QmcdUbrXyhZzbC7ZdRviwd22wz2WgQRERP8dHR1WEnnKa3"
+			]
+		}
+	},
+	"version": 1
+}
