@@ -1,18 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.7.6+commit.7338295f"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "doSomething",
+				"name": "currentStatus",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum EnumExample.Status",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "myVariable",
+				"name": "getStatus",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum EnumExample.Status",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -34,25 +34,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
+						"internalType": "enum EnumExample.Status",
+						"name": "_status",
+						"type": "uint8"
 					}
 				],
-				"name": "setMyVariable",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable2",
+				"name": "setStatus",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "DerivedContract"
+			"enums.sol": "EnumExample"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"enums.sol": {
+			"keccak256": "0x560751a28fbabd791f8306af5d6f21181d543350246a5767de2e7437b25a8d06",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://32a9386d9afde3a198af62ec4372694f37ce1c3f398f7595d66b28e1b4595d49",
+				"dweb:/ipfs/QmV11PD2fJzQCxzbEEQTSw2LVXjZTm4W87C5ep8ToFMZwe"
 			]
 		}
 	},

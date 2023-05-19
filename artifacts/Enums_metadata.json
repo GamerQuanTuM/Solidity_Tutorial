@@ -1,18 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.7.6+commit.7338295f"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "doSomething",
+				"name": "choice",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum Enums.FreshJuiceSize",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -20,39 +20,34 @@
 			},
 			{
 				"inputs": [],
-				"name": "myVariable",
+				"name": "getSize",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum Enums.FreshJuiceSize",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable",
+				"inputs": [],
+				"name": "setLarge",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable2",
+				"inputs": [],
+				"name": "setMedium",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,9 +66,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "DerivedContract"
+			"enums.sol": "Enums"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"enums.sol": {
+			"keccak256": "0x28968cbc8e278e4c505d3bfd20be193f8eeefdfca55b9f83f8166e1ff11ffa42",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://89e031e3b6741e300c36622b3a6bfaf5314a22c7e5e74b499682df6dc3ea089a",
+				"dweb:/ipfs/QmNe27iKc56jMGPnjQjHwkkWXgCmNWrDLRhj7qhZwvFLaT"
 			]
 		}
 	},

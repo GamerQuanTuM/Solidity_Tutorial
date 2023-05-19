@@ -7,19 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "doSomething",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "myContract",
+				"name": "val",
 				"outputs": [
 					{
-						"internalType": "contract MyContract",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "ExternalContract"
+			"operators.sol": "LogicalOpert"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"operators.sol": {
+			"keccak256": "0x34667cfe5bb473af42bb433008abb5b330cb387fbc9ce315d6703badeff2858d",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://34075715089037b913aa0f2e2fee7c7a2cff02fe734968ed5b8cff7f0a8128b9",
+				"dweb:/ipfs/QmfZHbwYFvqyZF1Gc2oK2hDcf23K98PAbvQ2pZstsHwUnZ"
 			]
 		}
 	},

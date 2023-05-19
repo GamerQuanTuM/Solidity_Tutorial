@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "doSomething",
+				"name": "a",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "myVariable",
+				"name": "b",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,29 +32,42 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "c",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
-				"name": "setMyVariable",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "get2",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "newValue",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyVariable2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get3",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "DerivedContract"
+			"operators.sol": "BitwiseOperator"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"operators.sol": {
+			"keccak256": "0xaf1016557904437e5c633dd362a16d968db615bf1a82eea3fca5f74916022b34",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://bb7aef063861d80b6b7952826b7d66bc387a4e2fe94f5020cd0cbd0dc51b9ff6",
+				"dweb:/ipfs/QmVWQJWSqXxs18Ka79x9Cxoh4jQbbSV53y59Vm25zTNqBQ"
 			]
 		}
 	},

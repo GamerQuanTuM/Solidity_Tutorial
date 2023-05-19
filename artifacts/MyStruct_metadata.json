@@ -1,30 +1,33 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.7.6+commit.7338295f"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "doSomething",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myVariable",
+				"name": "Books",
 				"outputs": [
 					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "price",
 						"type": "uint256"
 					}
 				],
@@ -34,25 +37,22 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_author",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
-						"name": "newValue",
+						"name": "_price",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyVariable2",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,9 +71,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "DerivedContract"
+			"struct.sol": "MyStruct"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"struct.sol": {
+			"keccak256": "0x337a2012146fda81d0cea57566bea650e07ae1526cf3e40b11965db4972d95f9",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://1a2366776cb06be71feee67bf586e60bc60809ebbbc43ef5132c07597b612074",
+				"dweb:/ipfs/QmUxGNMgebvBkaLW6Hti286fB6yF6WTbFZTbRGrCh3ge2p"
 			]
 		}
 	},

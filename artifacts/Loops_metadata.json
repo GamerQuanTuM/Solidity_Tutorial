@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "doSomething",
+				"name": "a",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +20,21 @@
 			},
 			{
 				"inputs": [],
-				"name": "myVariable",
+				"name": "doWhileLoop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forLoop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "val",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,27 +46,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "val2",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "newValue",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyVariable",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newValue",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyVariable2",
+				"inputs": [],
+				"name": "whileLoop",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variable_scopes.sol": "DerivedContract"
+			"loops.sol": "Loops"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,12 +93,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"variable_scopes.sol": {
-			"keccak256": "0xf5da8f38171ca9a6f868e6308615d981b61c1e05bedc24e0eb9499f946b3e4f5",
+		"loops.sol": {
+			"keccak256": "0xe0fe87c861cb563881628ef636d9617d70f9f652d805caf5486afb747d687167",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://a892afdc9e207b97989e4b27ecf826bedac1103a89faa669dc5b961524661124",
-				"dweb:/ipfs/QmX7268vtTUXgbqkLsfEf1FxqwiHvtxF7iuJ2Cpo8wxPPP"
+				"bzz-raw://a9b7766fba4d95b8f5fee9d7555985342262c1b41e17210ae3bc576ed82cca88",
+				"dweb:/ipfs/QmRLWvYGN8u9R48aRnG2Z3G11JR8fPS2ovkmjDNZcQxCwo"
 			]
 		}
 	},
