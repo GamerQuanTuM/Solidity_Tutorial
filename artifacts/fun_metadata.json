@@ -6,7 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2",
+						"type": "uint256"
+					}
+				],
 				"name": "add",
 				"outputs": [
 					{
@@ -32,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"libraries.sol": "fun"
+			"libraries.sol": "Fun"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -47,11 +58,11 @@
 	},
 	"sources": {
 		"libraries.sol": {
-			"keccak256": "0xba8ec706194ca8abc4cd48b9419ebf92c10145a248e8bdf1cffea3fc1b3697a4",
+			"keccak256": "0xb631a139168caa31ab7419acab730da774f8bba8cd573b13c91496731add8793",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://56cb1e0380232a528005b3b66610ec2dd9543e9351f58e6348f9872e834a8cfd",
-				"dweb:/ipfs/Qmbm6eTvCWCyGVakbYjrEoEMzcG8UACi1Gu4BoFBjjYNw6"
+				"bzz-raw://438dcb63c9bf455af7d40d1ec19a231606854ecb695fbe7a5796949660b4702a",
+				"dweb:/ipfs/Qmahps1wkTzJbPzFpdDN45Mvwc9MW25DWXwTutCew1u5Sy"
 			]
 		}
 	},
