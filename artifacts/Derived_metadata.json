@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constructor.sol": "Derived"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constructor.sol": {
+			"keccak256": "0xadc1c54ab0e702cf4066f40aac3cf997f58d39acf347a087752eb367d4880d2e",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://dde1c70ddf176efb4ca69de7f3de8d66fda59869a2957596239162309ff27981",
+				"dweb:/ipfs/QmaAL5reNbaWyQ5qFDDwCBYson8K4dUtEuLgV7tNiVusVt"
+			]
+		}
+	},
+	"version": 1
+}

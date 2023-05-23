@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_data",
+						"type": "string"
+					}
+				],
+				"name": "getHashedData",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hash_fn.sol": "Caller"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hash_fn.sol": {
+			"keccak256": "0x85e45ea45ce936ec0112de5362a0fe7a7d129eeb4eef41d206460695f5a0c84f",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://ba0535e406c6e4816f8021f16001c895cd548d8d51c56e417f732fd40d320962",
+				"dweb:/ipfs/QmUXAe4yPFVAfvQShMSvHoYGiw8EWMYbeDZPBJycoM4DG3"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fn_overriding.sol": "Base1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fn_overriding.sol": {
+			"keccak256": "0x08d23bcb78708a3cd0932fafd540fcf46971d0d27254d1b6ac85c3f779631c7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2b2d734ff0d028532ad1470ed5f079d50775d5e6151d1e19474c36cf9bcc356b",
+				"dweb:/ipfs/QmdKTyRXczNbBs1vjaY7DAKUExRtNt3xU4PDZMgBBrvbjn"
+			]
+		}
+	},
+	"version": 1
+}

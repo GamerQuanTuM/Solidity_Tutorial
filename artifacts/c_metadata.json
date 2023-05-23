@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_password",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "generatePassword",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increaseCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritance.sol": "c"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hash_fn.sol": {
+			"keccak256": "0x524c1ea6fd6f5b746996599d7534ca098eb14d1a6efb3d02a1fbdfa4bf204631",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://3e0593f56a4fb7f8878c4f85b3fe4faee4aac80c6722611ee6e1b130ad0cc5bc",
+				"dweb:/ipfs/QmRA9xjfy38CyG66HWatDHnBrsrp7KZDT1gt9gvhKJUgeP"
+			]
+		},
+		"https://github.com/shuvishubham/web3-fundraiser-youtube/blob/main/contracts/Campaign.sol": {
+			"keccak256": "0x3fd703b63a9cd7ce5926e68021cf8e6f8a92593a11bbfadc178cfb6cdf2b1fe4",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://f75203cc695db143eec0ebe90a919d38ac7c3a32eb553e6904b9f72ee506c5ee",
+				"dweb:/ipfs/QmaSTtgQoJpcWeExU4MjvEiPESWGC71x8RqNgdTi1NbeDF"
+			]
+		},
+		"inheritance.sol": {
+			"keccak256": "0x6c00aac9f7f10d827108543fb58c1e89556d12d1c82f88e26d0e013971113704",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://3f995db6fb7b7e10d577678b1963c95082ae75addff4677857010b2e98498a66",
+				"dweb:/ipfs/QmU53ECGaZFHEPU9LsDMYeHsYYxygSZBZWgQEt1fPERR4X"
+			]
+		}
+	},
+	"version": 1
+}

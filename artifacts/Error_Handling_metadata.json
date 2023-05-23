@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_owner",
+						"type": "string"
+					}
+				],
+				"name": "call",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner_name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"error_handling.sol": "Error_Handling"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"error_handling.sol": {
+			"keccak256": "0x39d224e9ee21c8857c87f7147eaab7d3f59bbbe70643e92b2ff123a465a0a45f",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://a2ae008dc9f28b9eeb7cbd543c83f6612f1191331cc29fe1ddb9b4020ff4b187",
+				"dweb:/ipfs/QmPfrzDBYHvffPxmCZKoKgtbFGvUF2fS2KzBTBornSEd6n"
+			]
+		}
+	},
+	"version": 1
+}

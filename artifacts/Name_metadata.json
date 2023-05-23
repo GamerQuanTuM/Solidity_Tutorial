@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping.sol": "Name"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping.sol": {
+			"keccak256": "0xeaf01ac638ff68c3f60093170b2af90a1c1db2d647dbf6af5314de91ba340611",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://99c0bc74711d6eb2c8ecd69729f41ab4627796f3bb51d85e876d37ea07415c0a",
+				"dweb:/ipfs/QmXybx2d8rmUqFZkqXUpk4Geug4CEraAZNRsZAN1ZN8SFG"
+			]
+		}
+	},
+	"version": 1
+}
